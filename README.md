@@ -11,4 +11,4 @@ Go to the link https://to-do-pi-ten.vercel.app
 2. Task will be added to "Task List" section where you can view, read, update status of the task and delete.
 
 # Technology stack : 
-This app is made with TypeScript, Next Js, Mobx, Firebase.
+This app is made with TypeScript, Next Js, Mobx, Vercel.
