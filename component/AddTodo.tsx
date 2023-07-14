@@ -94,7 +94,7 @@ const AddTodo = () => {
                     </div>
                     <button
                     onClick={action((e) => {
-                        store.addTodo(store.title, store.time, store.description, store.previousStatus);
+                        store.addTodo();
                         
                     })}
                     className="update-action_btn ">Submit </button>

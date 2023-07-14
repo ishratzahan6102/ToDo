@@ -3,7 +3,6 @@ import { makeAutoObservable } from "mobx";
 export interface Todo {
     id: number;
     title: string;
-    done: boolean
     time: string;
     description: string;
     previousStatus: string
@@ -20,7 +19,7 @@ const addTodo = (todos: Todo[], title: string, time: string, description: string
         time,
         description,
         previousStatus,
-        done: false,
+       
     },
 ]
 
