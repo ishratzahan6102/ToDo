@@ -30,12 +30,6 @@ class Todo {
         this.previousStatus = status
     }
 
-    todos: Todo[] = []
-
-    addTodo(todo: Todo){
-        this.todos.push(todo)
-    }
-
 }
 
 export default Todo;
